@@ -43,7 +43,7 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
 # Implementing K-Nearest Neighbors with optimal k selection
-k_values = range(1, 51)  # Range of k values to evaluate
+k_values = range(1, 21)  # Range of k values to evaluate
 accuracy_values = []
 
 # Looping over k values to find the best k with the highest accuracy
